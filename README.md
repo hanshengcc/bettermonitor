@@ -30,3 +30,7 @@ open build.noindex/BetterMonitor.app
 
 - [ ] 虚拟 HiDPI 显示器 + 镜像（私有 API `CGVirtualDisplay`）：提供系统缺失的"看起来像 1600×900 / 1920×1080 且 2x 超采样"档位，空间与清晰度兼得。
 - [ ] DDC/CI 亮度、音量控制（Apple Silicon 走 `IOAVService`）。
+
+## License
+
+MIT，见 [LICENSE](LICENSE)。
