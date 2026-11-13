@@ -1,0 +1,21 @@
+{
+  "fill" : {
+    "linear-gradient" : [
+      "srgb:0.36078,0.55686,1.00000,1.00000",
+      "srgb:0.16471,0.23922,0.78431,1.00000"
+    ]
+  },
+  "groups" : [
+    {
+      "layers" : [ { "image-name" : "sparkle.png", "name" : "sparkle" } ],
+      "shadow" : { "kind" : "neutral", "opacity" : 0.4 },
+      "translucency" : { "enabled" : false, "value" : 0.4 }
+    },
+    {
+      "layers" : [ { "image-name" : "display.png", "name" : "display" } ],
+      "shadow" : { "kind" : "neutral", "opacity" : 0.5 },
+      "translucency" : { "enabled" : true, "value" : 0.25 }
+    }
+  ],
+  "supported-platforms" : { "squares" : "shared" }
+}
